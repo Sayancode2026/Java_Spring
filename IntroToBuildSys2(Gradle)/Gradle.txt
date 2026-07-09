@@ -1,0 +1,41 @@
+PS C:\Users\SAYAN\IdeaProjects\IntroToBuildSys2> ./gradlew  build
+
+Welcome to Gradle 9.3.0!
+
+Here are the highlights of this release:
+ - Test reporting improvements
+ - Error and warning improvements
+ - Build authoring improvements
+
+For more details see https://docs.gradle.org/9.3.0/release-notes.html
+
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.0/userguide/configuration_cache_enabling.html
+PS C:\Users\SAYAN\IdeaProjects\IntroToBuildSys2> ./gradlew  jar  
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 2 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.0/userguide/configuration_cache_enabling.html
+PS C:\Users\SAYAN\IdeaProjects\IntroToBuildSys2> ./gradlew  jar  
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 2 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.0/userguide/configuration_cache_enabling.html
+PS C:\Users\SAYAN\IdeaProjects\IntroToBuildSys2> ./gradlew  jar
+
+BUILD SUCCESSFUL in 3s
+2 actionable tasks: 1 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.0/userguide/configuration_cache_enabling.html
+PS C:\Users\SAYAN\IdeaProjects\IntroToBuildSys2> java -jar build/libs/IntroToBuildSys2-1.0-SNAPSHOT.jar                            
+Hello and welcome!i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+Some String
+
+
+stack overflow link:https://stackoverflow.com/questions/32567167/gradle-no-main-manifest-attribute
+Gradle CLI:https://docs.gradle.org/current/userguide/command_line_interface.html
