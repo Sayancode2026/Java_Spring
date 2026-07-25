@@ -1,0 +1,8 @@
+package Lesson2_Open_Closed_Principle.Example3.BetterCode;
+
+public class WordReportGenerator implements ReportGenerator{
+    @Override
+    public String generate() {
+        return "Word report";
+    }
+}
