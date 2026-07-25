@@ -1,4 +1,5 @@
 package Lesson2_Open_Closed_Principle.Example1.ProblematicCode;
+import java.util.List;
 
 public class NotificationSender {
     public void SendNotification(List<NotificationType>notificationTypes){
