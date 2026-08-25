@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example' //help to unique identification it can be anything like com.ey-gds, com.sayan etc. so it should be maintained in file structure as well
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral() // a place from where all the dependencies will be downloaded,there are more like this like google have it's own platform,gradle,even in deep tech companies instead of using the public opensource libraries it has it's own private place from where all the dependencies will be downloaded
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:6.0.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+jar{
+    manifest{//a starting point of executionThis tells the Java Virtual Machine (JVM) the exact class where execution starts (the class containing the public static void main(String[] args) method).
+        attributes(
+                'Main-Class':'org.example.Main'
+        )
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
