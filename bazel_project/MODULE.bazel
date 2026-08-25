@@ -1,6 +1,0 @@
-module(
-    name = "bazel_project",
-    version = "1.0",
-)
-
-bazel_dep(name = "rules_java", version = "9.1.0")
