@@ -1,0 +1,29 @@
+Design a Banking System using Java Abstract Classes and Inheritance.
+
+A bank has multiple types of accounts such as:
+
+Savings Account
+Current Account
+Salary Account
+Fixed Deposit Account
+
+Every account has some common properties and operations, but each account follows different withdrawal rules.
+
+Design the system using Object-Oriented Programming principles.
+
+
+                           BankAccount (Abstract)
+                    ---------------------------------
+                    - accountNo
+                    - accountHolder
+                    - balance
+                    ---------------------------------
+                    + deposit()
+                    + withdraw()
+                    + getBalance()
+                    + displayAccount()
+                              ▲
+      -------------------------------------------------------
+      |                     |                     |          |
+      |                     |                     |          |
+SavingsAccount      CurrentAccount      SalaryAccount   FixedDeposit
