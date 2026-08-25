@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/IntroductionToBuildSystems" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/IntroToBuildSys2(Gradle)/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/IntroToBuildSys2(Gradle)/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/bazel-out/_tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/bazel-out/x64_windows-fastbuild" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/bazel-out/x64_windows-fastbuild/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/bazel_tools/jdk/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/rules_java++toolchains+local_jdk/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/rules_java++toolchains+remotejdk11_win/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/rules_java++toolchains+remotejdk25_win/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/rules_python+/docs/api/rules_python/python/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/rules_python+/python/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bazel_project/external/rules_python+/tests/modules/other/simple_v2/site-packages/simple.libs" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bin/src/main/java/com/algo/project/_javac/hello_world/hello_world_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bin/src/main/java/com/algo/project/_javac/hello_world/hello_world_tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bin/src/main/java/com/algo/project/_javac/util_lib/libutil_lib_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bin/src/main/java/com/algo/project/_javac/util_lib/libutil_lib_tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-bin/src/main/java/com/algo/project/hello_world.exe.runfiles/_main" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-out" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-out/_tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-out/x64_windows-fastbuild" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-out/x64_windows-fastbuild/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/bazel_project/bazel-testlogs" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
