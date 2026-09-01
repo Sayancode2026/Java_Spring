@@ -10,6 +10,9 @@ repositories {
 }
 
 dependencies {
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'//act as a converter
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'//want  to use okhttp into the project
     testImplementation platform('org.junit:junit-bom:6.0.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
@@ -31,3 +34,13 @@ jar{
 test {
     useJUnitPlatform()
 }
+
+//Gson acts exactly as a converter (or parser)
+// .By default, Retrofit only knows how to read raw HTTP response bodies into a basic ResponseBody object.
+// It does not know how to handle complex data formats like JSON.
+// Here is exactly why you need Gson (or a similar converter) when using Retrofit:
+// 1.  It Automates Data Mapping (Deserialization)When your app talks to a server, the server sends back a long string of text formatted as JSON.
+// Without Gson: You would have to manually parse that JSON string line-by-line, extract keys, and assign them to your variables using native tools like JSONObject.
+// This is tedious and prone to bugs.With Gson: Gson automatically maps the incoming JSON text directly into your structured Kotlin or Java data objects (POJOs/Data Classes).
+// 2. It Handles Outbound Data (Serialization)When you want to send data to a server (like a POST request to create a user profile), you pass a Kotlin/Java object to Retrofit.
+// Gson automatically translates that object back into a formatted JSON string that the server can understand.
