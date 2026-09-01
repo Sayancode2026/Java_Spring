@@ -17,10 +17,14 @@ dependencies {
 }
 
 jar{
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
     manifest{//a starting point of executionThis tells the Java Virtual Machine (JVM) the exact class where execution starts (the class containing the public static void main(String[] args) method).
         attributes(
                 'Main-Class':'org.example.Main'
         )
+    }
+    from {
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 
